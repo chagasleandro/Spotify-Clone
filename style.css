@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: "Roboto", sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    justify-content: center;
+}
+
+#navbar .navbarcontainer {
+    width: 60%;
+    display: flex;
+}
+
+#navbar .navbar-container .logo{
+    height: 50px;
+    width:auto;
+}
+
